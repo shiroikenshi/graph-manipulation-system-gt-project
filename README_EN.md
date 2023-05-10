@@ -1,84 +1,84 @@
-# <div align="center"><a href="/README.md">Português</a> | <a href="/README_EN.md">Inglês</a></div>
+# <div align="center"><a href="/README.md">Portuguese</a> | <a href="/README_EN.md">English</a></div>
 <br><br>
-# Teoria dos Grafos - Sistema de Manipulação de Grafos
-Este repositório contém um sistema de manipulação de grafos implementado em Python. O sistema permite a criação de um grafo, adição de vértices e arestas, cálculo do grau mínimo e máximo, criação da matriz de adjacência, busca em largura, busca em profundidade e identificação dos componentes conexos do grafo.
+# Graph Theory - Graph Manipulation System
+This repository contains a graph manipulation system implemented in Python. The system allows for graph creation, addition of vertices and edges, calculation of minimum and maximum degree, creation of adjacency matrix, breadth-first search, depth-first search, and identification of connected components in the graph.
 
-### Autores
+### Authors
 * Felipe Pinto da Silva | RGM: 26533952
 * Catherine Ferreira Honorato | RGM: 25971573
 * Camila Ferreira de Sousa | RGM: 28396073
 * Hugo Nascimento Pedro | RGM: 26370174
 
-### Funcionalidades
-#### Classe Grafo
-A classe Grafo representa um grafo e possui os seguintes métodos:
+### Features
+#### Graph Class
+The Graph class represents a graph and has the following methods:
 
-* __init__(): Inicializa um objeto Grafo vazio.
-* adicionar_vertice(vertice): Adiciona um vértice ao grafo.
-* adicionar_aresta(vertice1, vertice2): Adiciona uma aresta entre dois vértices do grafo.
-* calcular_grau_minimo(): Calcula e retorna o grau mínimo do grafo.
-* calcular_grau_maximo(): Calcula e retorna o grau máximo do grafo.
-* criar_matriz_adjacencia(): Cria e retorna a matriz de adjacência do grafo.
-* busca_largura(vertice_inicial): Aplica a busca em largura no grafo a partir de um vértice inicial e retorna a ordem de visita dos vértices.
-* busca_profundidade(vertice_inicial): Aplica a busca em profundidade no grafo a partir de um vértice inicial e retorna a ordem de visita dos vértices.
-* componentes_conexos(): Encontra e retorna os componentes conexos do grafo.
+* __init__(): Initializes an empty Graph object.
+* adicionar_vertice(vertice): Adds a vertex to the graph.
+* adicionar_aresta(vertice1, vertice2): Adds an edge between two vertices of the graph.
+* calcular_grau_minimo(): Calculates and returns the minimum degree of the graph.
+* calcular_grau_maximo(): Calculates and returns the maximum degree of the graph.
+* criar_matriz_adjacencia(): Creates and returns the adjacency matrix of the graph.
+* busca_largura(vertice_inicial): Applies breadth-first search on the graph starting from an initial vertex and returns the order of visited vertices.
+* busca_profundidade(vertice_inicial): Applies depth-first search on the graph starting from an initial vertex and returns the order of visited vertices.
+* componentes_conexos(): Finds and returns the connected components of the graph.
 
-#### Funções de Apoio
-* ler_arquivo(nome_arquivo): Lê um arquivo contendo a descrição do grafo e retorna a matriz de adjacência e um objeto Grafo.
-* escrever_arquivo(nome_arquivo, linhas): Escreve os resultados das buscas e dos componentes conexos em um arquivo de texto.
+#### Support Functions
+* ler_arquivo(nome_arquivo): Reads a file containing the graph description and returns the adjacency matrix and a Graph object.
+* escrever_arquivo(nome_arquivo, linhas): Writes the results of breadth-first search, depth-first search, and connected components to a text file.
 
-### Utilização
-#### Utilizando uma IDE (Ambiente de Desenvolvimento Integrado):
+### Usage
+#### Using an IDE (Integrated Development Environment):
 
-1. Clone o repositório para o seu ambiente local.
-2. Certifique-se de ter o Python instalado em seu computador.
-3. Abra a sua IDE preferida (por exemplo, PyCharm, Visual Studio Code, Atom).
-4. Abra a pasta do projeto na IDE.
-5. Localize o arquivo Python que contém o código e abra-o.
-6. Modifique o arquivo "grafo.txt" para definir a descrição do grafo, seguindo o formato fornecido.
-7. Execute o código clicando no botão "Executar" ou "Play" na IDE.
-8. O sistema lerá o arquivo "grafo.txt" para obter a descrição do grafo.
-9. Informações sobre o grafo, como o número de vértices, número de arestas, grau mínimo e grau máximo, serão exibidas.
-10. A matriz de adjacência do grafo será criada e exibida na tela.
-11. Será solicitado ao usuário que informe um vértice inicial para realizar as buscas em largura e em profundidade.
-12. Informações sobre os componentes do grafo serão exibidas.
+1. Clone the repository to your local environment.
+2. Make sure you have Python installed on your computer.
+3. Open your preferred IDE (e.g., PyCharm, Visual Studio Code, Atom).
+4. Open the project folder in the IDE.
+5. Locate the Python file that contains the code and open it.
+6. Modify the "graph.txt" file to define the graph description following the provided format.
+7. Run the code by clicking the "Run" or "Play" button in the IDE.
+8. The system will read the "graph.txt" file to obtain the graph description.
+9. Information about the graph, such as the number of vertices, number of edges, minimum degree, and maximum degree, will be displayed.
+10. The adjacency matrix of the graph will be created and displayed on the screen.
+11. The user will be prompted to enter an initial vertex to perform breadth-first and depth-first searches.
+12. Information about the graph's connected components will be displayed.
 
-### Exemplo de aplicação do código
-#### 1. Descrição do grafo:
-Suponha que temos a descrição do grafo assim como na primeira imagem abaixo no arquivo grafo.txt:
+### Example of Code Application
+#### 1. Graph Description:
+Suppose we have the graph description as shown in the image below in the "grafo.txt" file:
 
 ![image](https://github.com/shiroikenshi/graph-manipulation-system/assets/131435772/1d83eef9-2d81-4727-a706-630e5e07c5c6)
 
-Nesse caso, temos um grafo com 4 vértices (representados pela primeira linha) e 4 arestas (representados pela linhas posteriores). Nesse exemplo nossas arestas são as seguintes: (1,2), (2,3), (1,4) e (2,4).
-#### 2. Execução do código:
-Após configurar o arquivo grafo.txt corretamente rode o sistema.
+In this case, we have a graph with 4 vertices (represented by the first line) and 4 edges (represented by the subsequent lines). In this example, our edges are: (1,2), (2,3), (1,4), and (2,4).
+#### 2. Code Execution:
+After properly configuring the "grafo.txt" file, run the system.
 
-#### 3. Resultados iniciais:
-O sistema exibirá as seguintes informações sobre o grafo:
-* Número de vértices: 4
-* Número de arestas: 4
-* Grau mínimo: 1
-* Grau máximo: 2
+#### 3. Initial Results:
+The system will display the following information about the graph:
+* Number of vertices: 4
+* Number of edges: 4
+* Minimum degree: 1
+* Maximum degree: 2
 
-* Matriz de Adjacência:<br>
+* Adjacency Matrix:<br>
 [0, 1, 0, 1]<br>
 [1, 0, 1, 1]<br>
 [0, 1, 0, 0]<br>
 [1, 1, 0, 0]
 
-#### 4. Busca em largura e profundidade:
-O sistema solicitará um vértice inicial para realizar as buscas em largura e em profundidade. Nesse exemplo escolheremos o vértice 1 como inicial.
+#### 4. Breadth-First and Depth-First Search:
+The system will prompt for an initial vertex to perform breadth-first and depth-first searches. In this example, we will choose vertex 1 as the initial vertex.
 
-#### 5. Componentes conexos:
-O sistema identificará os componentes conexos do grafo, ou seja, grupos de vértices que estão interligados entre si.
+#### 5. Connected Components:
+The system will identify the connected components of the graph, i.e., groups of vertices that are interconnected.
 
-#### 6. Resultados finais:
-O sistema exibirá as seguintes informações:
-* Busca em Largura: [1, 2, 4, 3]
-* Busca em Profundidade: [1, 2, 3, 4]
+#### 6. Final Results:
+The system will display the following information:
+* Breadth-First Search: [1, 2, 4, 3]
+* Depth-First Search: [1, 2, 3, 4]
 
-* Qtd. Componentes conexos: 1<br>
-Componente 1: {1, 2, 4, 3}
+* Number of Connected Components: 1<br>
+Component 1: [1, 2, 4, 3]
 
-#### 7. Escrevendo resultados em arquivos de texto:
-Finalizando o sistema irá criar e escrever os resultados obtidos pelas buscas (largura e profundidade) e verificação de componentes em dois arquivos de texto. Respectivamente "buscas.txt" e "componentes.txt".
+#### 7. Writing Results to Text Files:
+Upon completion, the system will create and write the results obtained from the breadth-first and depth-first searches, as well as the identification of components, to two text files named "searches.txt" and "components.txt", respectively.
