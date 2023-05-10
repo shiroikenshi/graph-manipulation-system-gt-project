@@ -1,4 +1,4 @@
-# <div align="center"><a href="/shiroikenshi/graph-manipulation-system/README_PT-BR.md">Português</a> | <a href="/shiroikenshi/graph-manipulation-system/README_EN.md">Inglês</a></div>
+# <div align="center"><a href="/README_PT-BR.md">Português</a> | <a href="/README_EN.md">Inglês</a></div>
 <br><br>
 # Teoria dos Grafos - Sistema de Manipulação de Grafos
 Este repositório contém um sistema de manipulação de grafos implementado em Python. O sistema permite a criação de um grafo, adição de vértices e arestas, cálculo do grau mínimo e máximo, criação da matriz de adjacência, busca em largura, busca em profundidade e identificação dos componentes conexos do grafo.
