@@ -41,7 +41,9 @@ The Graph class represents a graph and has the following methods:
 9. Information about the graph, such as the number of vertices, number of edges, minimum degree, and maximum degree, will be displayed.
 10. The adjacency matrix of the graph will be created and displayed on the screen.
 11. The user will be prompted to enter an initial vertex to perform breadth-first and depth-first searches.
-12. Information about the graph's connected components will be displayed.
+12. Information containing the resulting path of the searches will be displayed on the screen.
+13. Information about the graph's connected components will be displayed.
+14. Finally, the output .txt files for the searches and components will be generated.
 
 ### Example of Code Application
 #### 1. Graph Description:
