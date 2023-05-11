@@ -47,11 +47,16 @@ A classe Grafo representa um grafo e possui os seguintes métodos:
 
 ### Exemplo de aplicação do código
 #### 1. Descrição do grafo:
-Suponha que temos a descrição do grafo assim como na primeira imagem abaixo no arquivo grafo.txt:
+Suponha que temos a descrição abaixo do grafo dentro do arquivo grafo.txt:
+```
+4
+1 2
+1 4
+2 3
+2 4
+```
+Nesse caso, temos um grafo com 4 vértices (representados pela primeira linha) e 4 arestas (representados pela linhas posteriores). Nesse exemplo nossas arestas são as seguintes: (1,2), (1,4), (2,3) e (2,4). Para manter a correta representação das conexões no grafo, é importante manter a ordem dos vértices quando formos descrever cada aresta. Como no exemplo anterior.
 
-![image](https://github.com/shiroikenshi/graph-manipulation-system/assets/131435772/1d83eef9-2d81-4727-a706-630e5e07c5c6)
-
-Nesse caso, temos um grafo com 4 vértices (representados pela primeira linha) e 4 arestas (representados pela linhas posteriores). Nesse exemplo nossas arestas são as seguintes: (1,2), (2,3), (1,4) e (2,4).
 #### 2. Execução do código:
 Após configurar o arquivo grafo.txt corretamente rode o sistema.
 
