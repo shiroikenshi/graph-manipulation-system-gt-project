@@ -41,7 +41,9 @@ A classe Grafo representa um grafo e possui os seguintes métodos:
 9. Informações sobre o grafo, como o número de vértices, número de arestas, grau mínimo e grau máximo, serão exibidas.
 10. A matriz de adjacência do grafo será criada e exibida na tela.
 11. Será solicitado ao usuário que informe um vértice inicial para realizar as buscas em largura e em profundidade.
-12. Informações sobre os componentes do grafo serão exibidas.
+12. Informações contendo o caminho resultante das buscas serão exibidas na tela.
+13. Informações sobre os componentes do grafo serão exibidas.
+14. Por fim, os arquivos .txt de saída para as buscas e componentes serão gerados.
 
 ### Exemplo de aplicação do código
 #### 1. Descrição do grafo:
