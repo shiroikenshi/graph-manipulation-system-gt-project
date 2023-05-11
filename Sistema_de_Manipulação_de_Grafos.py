@@ -29,13 +29,15 @@ class Grafo:
     def adicionar_aresta(self, vertice1, vertice2):
         # Verifica se ambos os vértices estão presentes no dicionário
         if vertice1 in self.vertices and vertice2 in self.vertices:
-            # Adiciona a aresta através das duas próximas linhas de código
-            # Adiciona vertice2 à lista de vértices adjacentes de vértice1
-            self.vertices[vertice1].append(vertice2)
-            # Adiciona vertice1 à lista de vértices adjacentes de vértice2
-            self.vertices[vertice2].append(vertice1)
-            # Incrementa o contador de arestas
-            self.num_arestas += 1
+            # Verifica se a aresta ainda não existe (evitando dupla contabilização da mesma aresta devido linhas no grafo.txt como (2, 1) logo após (1, 2))
+            if vertice2 not in self.vertices[vertice1]:
+                # Adiciona a aresta através das duas próximas linhas de código
+                # Adiciona vertice2 à lista de vértices adjacentes de vértice1
+                self.vertices[vertice1].append(vertice2)
+                # Adiciona vertice1 à lista de vértices adjacentes de vértice2
+                self.vertices[vertice2].append(vertice1)
+                # Incrementa o contador de arestas
+                self.num_arestas += 1
     
     # Calcula e retorna o grau mínimo do Grafo
     def calcular_grau_minimo(self):
