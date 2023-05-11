@@ -56,12 +56,14 @@ Após configurar o arquivo grafo.txt corretamente rode o sistema.
 #### 3. Resultados iniciais:
 O sistema exibirá as seguintes informações sobre o grafo:
 ```
-* Número de vértices: 4
-* Número de arestas: 4
-* Grau mínimo: 1
-* Grau máximo: 2
+Manipulação sendo realizada com o grafo presente no arquivo grafo.txt
 
-* Matriz de Adjacência:
+a. Número de vértices: 4
+b. Número de arestas: 4
+c. Grau mínimo: 1
+d. Grau máximo: 2
+
+e. Matriz de Adjacência:
 [0, 1, 0, 1]
 [1, 0, 1, 1]
 [0, 1, 0, 0]
@@ -69,18 +71,23 @@ O sistema exibirá as seguintes informações sobre o grafo:
 ```
 #### 4. Busca em largura e profundidade:
 O sistema solicitará um vértice inicial para realizar as buscas em largura e em profundidade. Nesse exemplo escolheremos o vértice 1 como inicial.
-
+```
+f. Digite o vértice inicial para as buscas (Largura e Profundidade): 1
+```
 #### 5. Componentes conexos:
 O sistema identificará os componentes conexos do grafo, ou seja, grupos de vértices que estão interligados entre si.
 
 #### 6. Resultados finais:
 O sistema exibirá as seguintes informações:
 ```
-* Busca em Largura: [1, 2, 4, 3]
-* Busca em Profundidade: [1, 2, 3, 4]
+Busca em Largura: [1, 2, 4, 3]
+Busca em Profundidade: [1, 2, 3, 4]
 
-* Qtd. Componentes conexos: 1
+g. Qtd. Componentes conexos: 1
 Componente 1: {1, 2, 4, 3}
 ```
 #### 7. Escrevendo resultados em arquivos de texto:
-Finalizando o sistema irá criar e escrever os resultados obtidos pelas buscas (largura e profundidade) e verificação de componentes em dois arquivos de texto. Respectivamente "buscas.txt" e "componentes.txt".
+Finalizando o sistema irá criar e escrever os resultados obtidos pelas buscas (largura e profundidade) e verificação de componentes em dois arquivos de texto. Respectivamente "buscas.txt" e "componentes.txt". Irá imprimir na tela um texto informativo notificando o usuário que os arquivos de texto foram gerados dentro do diretório.
+```
+Os arquivos txt de buscas e componentes foram gerados dentro do diretório.
+```
