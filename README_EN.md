@@ -55,30 +55,40 @@ After properly configuring the "grafo.txt" file, run the system.
 
 #### 3. Initial Results:
 The system will display the following information about the graph:
-* Number of vertices: 4
-* Number of edges: 4
-* Minimum degree: 1
-* Maximum degree: 2
+```
+Manipulation is being performed with the graph present in the file "grafo.txt"
 
-* Adjacency Matrix:<br>
-[0, 1, 0, 1]<br>
-[1, 0, 1, 1]<br>
-[0, 1, 0, 0]<br>
+a. Number of vertices: 4
+b. Number of edges: 4
+c. Minimum degree: 1
+d. Maximum degree: 2
+
+e. Adjacency Matrix:
+[0, 1, 0, 1]
+[1, 0, 1, 1]
+[0, 1, 0, 0]
 [1, 1, 0, 0]
-
+```
 #### 4. Breadth-First and Depth-First Search:
 The system will prompt for an initial vertex to perform breadth-first and depth-first searches. In this example, we will choose vertex 1 as the initial vertex.
-
+```
+f. Enter the initial vertex for the searches (Breadth-first and Depth-first): 1
+```
 #### 5. Connected Components:
 The system will identify the connected components of the graph, i.e., groups of vertices that are interconnected.
 
 #### 6. Final Results:
 The system will display the following information:
-* Breadth-First Search: [1, 2, 4, 3]
-* Depth-First Search: [1, 2, 3, 4]
+```
+Breadth-First Search: [1, 2, 4, 3]
+Depth-First Search: [1, 2, 3, 4]
 
-* Number of Connected Components: 1<br>
+g. Number of Connected Components: 1
 Component 1: [1, 2, 4, 3]
-
+```
 #### 7. Writing Results to Text Files:
-Upon completion, the system will create and write the results obtained from the breadth-first and depth-first searches, as well as the identification of components, to two text files named "searches.txt" and "components.txt", respectively.
+Upon completion, the system will create and write the results obtained from the breadth-first and depth-first searches, as well as the identification of components, to two text files named "searches.txt" and
+"components.txt", respectively. It will print an informative text on the screen notifying the user that the text files have been generated inside the directory.
+```
+The search and component txt files were generated inside the directory.
+```
