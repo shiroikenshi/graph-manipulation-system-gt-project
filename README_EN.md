@@ -47,11 +47,16 @@ The Graph class represents a graph and has the following methods:
 
 ### Example of Code Application
 #### 1. Graph Description:
-Suppose we have the graph description as shown in the image below in the "grafo.txt" file:
+Suppose we have the description below of the graph in the file "grafo.txt":
+```
+4
+1 2
+1 4
+2 3
+2 4
+```
+In this case, we have a graph with 4 vertices (represented by the first line) and 4 edges (represented by the previous lines). In this example, our edges are: (1,2), (1,4), (2,3) and (2,4). To maintain the correct representation of connections in the graph, it is important to preserve the order of the vertices when describing each edge. Just like in the previous example.
 
-![image](https://github.com/shiroikenshi/graph-manipulation-system/assets/131435772/1d83eef9-2d81-4727-a706-630e5e07c5c6)
-
-In this case, we have a graph with 4 vertices (represented by the first line) and 4 edges (represented by the subsequent lines). In this example, our edges are: (1,2), (2,3), (1,4), and (2,4).
 #### 2. Code Execution:
 After properly configuring the "grafo.txt" file, run the system.
 
