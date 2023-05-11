@@ -55,17 +55,18 @@ Após configurar o arquivo grafo.txt corretamente rode o sistema.
 
 #### 3. Resultados iniciais:
 O sistema exibirá as seguintes informações sobre o grafo:
+```
 * Número de vértices: 4
 * Número de arestas: 4
 * Grau mínimo: 1
 * Grau máximo: 2
 
-* Matriz de Adjacência:<br>
-[0, 1, 0, 1]<br>
-[1, 0, 1, 1]<br>
-[0, 1, 0, 0]<br>
+* Matriz de Adjacência:
+[0, 1, 0, 1]
+[1, 0, 1, 1]
+[0, 1, 0, 0]
 [1, 1, 0, 0]
-
+```
 #### 4. Busca em largura e profundidade:
 O sistema solicitará um vértice inicial para realizar as buscas em largura e em profundidade. Nesse exemplo escolheremos o vértice 1 como inicial.
 
@@ -74,11 +75,12 @@ O sistema identificará os componentes conexos do grafo, ou seja, grupos de vér
 
 #### 6. Resultados finais:
 O sistema exibirá as seguintes informações:
+```
 * Busca em Largura: [1, 2, 4, 3]
 * Busca em Profundidade: [1, 2, 3, 4]
 
-* Qtd. Componentes conexos: 1<br>
+* Qtd. Componentes conexos: 1
 Componente 1: {1, 2, 4, 3}
-
+```
 #### 7. Escrevendo resultados em arquivos de texto:
 Finalizando o sistema irá criar e escrever os resultados obtidos pelas buscas (largura e profundidade) e verificação de componentes em dois arquivos de texto. Respectivamente "buscas.txt" e "componentes.txt".
