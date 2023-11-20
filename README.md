@@ -3,11 +3,8 @@
 # Teoria dos Grafos - Sistema de Manipulação de Grafos
 Este repositório contém um sistema de manipulação de grafos implementado em Python. O sistema permite a criação de um grafo, adição de vértices e arestas, cálculo do grau mínimo e máximo, criação da matriz de adjacência, busca em largura, busca em profundidade e identificação dos componentes conexos do grafo.
 
-### Autores
-* Felipe Pinto da Silva | RGM: 26533952
-* Catherine Ferreira Honorato | RGM: 25971573
-* Camila Ferreira de Sousa | RGM: 28396073
-* Hugo Nascimento Pedro | RGM: 26370174
+### Autor
+* Felipe Pinto da Silva
 
 ### Funcionalidades
 #### Classe Grafo
