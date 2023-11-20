@@ -3,11 +3,8 @@
 # Graph Theory - Graph Manipulation System
 This repository contains a graph manipulation system implemented in Python. The system allows for graph creation, addition of vertices and edges, calculation of minimum and maximum degree, creation of adjacency matrix, breadth-first search, depth-first search, and identification of connected components in the graph.
 
-### Authors
-* Felipe Pinto da Silva | RGM: 26533952
-* Catherine Ferreira Honorato | RGM: 25971573
-* Camila Ferreira de Sousa | RGM: 28396073
-* Hugo Nascimento Pedro | RGM: 26370174
+### Author
+* Felipe Pinto da Silva
 
 ### Features
 #### Graph Class
