@@ -10,19 +10,19 @@ This repository contains a graph manipulation system implemented in Python. The 
 #### Graph Class
 The Graph class represents a graph and has the following methods:
 
-* ```__init__()``` - Initializes an empty Graph object.
-* ```adicionar_vertice(vertice``` - Adds a vertex to the graph.
-* ```adicionar_aresta(vertice1, vertice2)``` - Adds an edge between two vertices of the graph.
-* ```calcular_grau_minimo()``` - Calculates and returns the minimum degree of the graph.
-* ```calcular_grau_maximo()``` - Calculates and returns the maximum degree of the graph.
-* ```criar_matriz_adjacencia()``` - Creates and returns the adjacency matrix of the graph.
-* ```busca_largura(vertice_inicial)``` - Applies breadth-first search on the graph starting from an initial vertex and returns the order of visited vertices.
-* ```busca_profundidade(vertice_inicial)``` - Applies depth-first search on the graph starting from an initial vertex and returns the order of visited vertices.
-* ```componentes_conexos()``` - Finds and returns the connected components of the graph.
+* ```__init__()``` Initializes an empty Graph object.
+* ```adicionar_vertice(vertice``` Adds a vertex to the graph.
+* ```adicionar_aresta(vertice1, vertice2)``` Adds an edge between two vertices of the graph.
+* ```calcular_grau_minimo()``` Calculates and returns the minimum degree of the graph.
+* ```calcular_grau_maximo()``` Calculates and returns the maximum degree of the graph.
+* ```criar_matriz_adjacencia()``` Creates and returns the adjacency matrix of the graph.
+* ```busca_largura(vertice_inicial)``` Applies breadth-first search on the graph starting from an initial vertex and returns the order of visited vertices.
+* ```busca_profundidade(vertice_inicial)``` Applies depth-first search on the graph starting from an initial vertex and returns the order of visited vertices.
+* ```componentes_conexos()``` Finds and returns the connected components of the graph.
 
 #### Support Functions
-* ```ler_arquivo(nome_arquivo)``` - Reads a file containing the graph description and returns the adjacency matrix and a Graph object.
-* ```escrever_arquivo(nome_arquivo, linhas)``` - Writes the results of breadth-first search, depth-first search, and connected components to a text file.
+* ```ler_arquivo(nome_arquivo)``` Reads a file containing the graph description and returns the adjacency matrix and a Graph object.
+* ```escrever_arquivo(nome_arquivo, linhas)``` Writes the results of breadth-first search, depth-first search, and connected components to a text file.
 
 ### Usage
 #### Using an IDE (Integrated Development Environment):
